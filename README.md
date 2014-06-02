@@ -6,7 +6,7 @@ JSXGraph Widget for TiddlyWiki5
 
 In your tiddler use the ```jsxgraph``` widget like this:
 
-```html
+```
 <$jsxgraph width="600px" height="400px" id="aJSXGraph">
 var brd = JXG.JSXGraph.initBoard('aJSXGraph',
            {axis:true,originX: 250, originY: 250, unitX: 50, unitY: 25});
