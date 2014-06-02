@@ -1,6 +1,6 @@
 #[tw5-jsxgraph-widget](https://kpe.github.io/tw5-jsxgraph-widget/)
 
-JSXGraph Widget for TiddlyWiki5
+JSXGraph Widget for TiddlyWiki5 (requires 5.0.13+)
 
 #[Usage](https://kpe.github.io/tw5-jsxgraph-widget/)
 
