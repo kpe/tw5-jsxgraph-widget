@@ -1,8 +1,8 @@
-#tw5-jsxgraph-widget
+#[tw5-jsxgraph-widget](https//kpe.github.io/tw5-jsxgraph-widget/)
 
 JSXGraph Widget for TiddlyWiki5
 
-#Usage
+#[Usage](https//kpe.github.io/tw5-jsxgraph-widget/)
 
 In your tiddler use the ```jsxgraph``` widget like this:
 
