@@ -37,23 +37,27 @@ Creates a JSXGraph widget
         var result = null;
         var initBoardBackup;
         try{
-
-            if($tw.fakeDocument === this.document) {
-                JXG.merge(JXG.Options, {renderer:'no'});
-            }
-
+            var doc = this.document;
 
             initBoardBackup = JXG.JSXGraph.initBoard;
             JXG.JSXGraph.initBoard = function(box, attributes){
                 if(result != null) {
                     throw new Error("Only board per jsxgraph widget is supported!");
                 }
+
+                if($tw.fakeDocument === doc) {
+                    boardNodeID = null;
+                    attributes.document = {};
+                    JXG.merge(JXG.Options, {renderer:'no'});
+                    attributes.renderer = 'no';
+                }
+
                 result = initBoardBackup.call(this, boardNodeID, attributes);
                 return result;
             };
             var jxgScript = new Function("JXG", jxgScriptBody);
             jxgScript.call(null, JXG);
-        }finally{
+        } finally {
             JXG.JSXGraph.initBoard = initBoardBackup;
         }
         return result;
