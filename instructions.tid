@@ -2,7 +2,7 @@ title: $:/plugins/kpe/jsxgraph/instructions
 
 ! Usage
 
-In your tiddler use the ```jsxgraph``` widget like this:
+In your tiddler use the `jsxgraph` widget like this:
 
 ```
 <$jsxgraph width="600px" height="400px">
@@ -12,6 +12,6 @@ var brd = JXG.JSXGraph.initBoard('ignored',
 </$jsxgraph>
 ```
 
-Note that the first argument to ```initBoard()``` will be ignored.
+Note that the first argument to `initBoard()` will be ignored.
 
-Check the demo at [$:/plugins/kpe/jsxgraph/jsxgraph.demo.tid]($:/plugins/kpe/jsxgraph/jsxgraph.demo.tid).
+Check the demo at [[$:/plugins/kpe/jsxgraph/jsxgraph.demo.tid|$:/plugins/kpe/jsxgraph/jsxgraph.demo.tid]].
