@@ -3,7 +3,7 @@
 	"description": "A JSXGraph widget for TiddlyWiki5",
 	"author": "kpe",
 	"version": "0.1.0",
-	"core-version": ">=5.0.13",
+	"core-version": ">=5.0.8",
 	"source": "https://github.com/kpe/tw5-jsxgraph-widget",
 	"plugin-type": "plugin"
 }
