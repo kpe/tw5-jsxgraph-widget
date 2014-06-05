@@ -1,0 +1,7 @@
+created: 20140605103452972
+modified: 20140605103456879
+tags: $:/tags/ViewToolbar
+title: $:/core/ui/ViewToolbar/edit
+type: text/vnd.tiddlywiki
+
+<!--$button message="tw-edit-tiddler" class="btn-invisible">{{$:/core/images/edit-button}}</$button-->

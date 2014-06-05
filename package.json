@@ -1,0 +1,31 @@
+{
+  "name": "tw5-jsxgraph-widget-gh-pages",
+  "version": "0.1.0",
+  "description": "Used for generating the JSXGraph gh-pages",
+  "main": "index.js",
+  "dependencies": {
+    "tiddlywiki": "~5.0.12-beta"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kpe/tw5-jsxgraph-widget.git"
+  },
+  "keywords": [
+    "tiddlywiki",
+    "TW5",
+    "github",
+    "gh-pages"
+  ],
+  "author": "kpe",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kpe/tw5-jsxgraph-widget/issues"
+  },
+  "scripts":{
+      "build": "./node_modules/.bin/tiddlywiki gh-page --verbose --rendertiddler JSXGraph\\ Widget ./index.html"
+  }
+}

@@ -18,6 +18,12 @@
             "index.html",
             "text/plain"
         ],
+        "gh-page": [
+            "--rendertiddler",
+            "$:/plugins/kpe/templates/gh-export",
+            "gh-pages.html",
+            "text/plain"
+        ],
         "static": [
             "--rendertiddler",
             "$:/core/templates/static.template.html",
